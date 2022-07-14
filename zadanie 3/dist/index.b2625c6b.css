@@ -1,0 +1,40 @@
+ul {
+  list-style-type: none;
+}
+
+table {
+  color: #333;
+  border-collapse: separate;
+  border-spacing: 0;
+  height: 50vh;
+  background: #fff;
+  border: 1px solid #888;
+  border-radius: 3px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12pt;
+}
+
+table th, table td {
+  text-align: left;
+  white-space: nowrap;
+  color: #777;
+  border: 1px solid #888;
+  padding: 1rem;
+}
+
+table th {
+  color: #fff;
+  background-color: #888;
+}
+
+table, th, td {
+  border-collapse: collapse;
+  border: 1px solid #000;
+}
+
+th, td {
+  text-align: left;
+  padding: 5px;
+}
+
+/*# sourceMappingURL=index.b2625c6b.css.map */
