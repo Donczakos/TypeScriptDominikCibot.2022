@@ -1,0 +1,1 @@
+{"version":3,"sources":["scss\\config.scss"],"names":[],"mappings":"AACA;EACE;;;AAEF;EACE;EACA;;;AAEF;EACE;EACA","file":"config.d59dba67.css","sourceRoot":"..","sourcesContent":["\r\nlabel{\r\n  margin: 10px;\r\n}\r\n.addTask,div{\r\n  text-align: center;\r\n  margin: 0 auto;\r\n}\r\n.listaToDo{\r\n  margin: 10px;\r\n  padding: 10px;\r\n}"]}

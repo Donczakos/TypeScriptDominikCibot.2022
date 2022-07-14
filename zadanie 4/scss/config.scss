@@ -1,0 +1,26 @@
+$primary-color: #fff;
+$secondary-color: black;
+$transparent: transparent;
+$cursor: pointer;
+button{
+  background-color: $transparent;
+  color:$secondary-color;
+}
+
+button:hover{
+  background-color: $secondary-color;
+  color:$primary-color;
+  cursor: $cursor;
+}
+
+label{
+  margin: 10px;
+}
+.addTask,div{
+  text-align: center;
+  margin: 0 auto;
+}
+.listaToDo{
+  margin: 10px;
+  padding: 10px;
+}

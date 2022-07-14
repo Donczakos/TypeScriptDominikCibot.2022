@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./scss/config.scss">
+</head>
+<body>
+
+    <div class="app">
+        <div class="addTask" >
+            <label for="">Tytuł: <input class="title" placeholder="Tytuł" type="text"></label>
+            <label for="">Treść: <input class="contents" placeholder="Treść" type="text"></label>
+            <label for="">Kolor: <input class="color" placeholder="Kolor" type="text"></label>
+            <label for="">Ważne zadanie: <input class="important" placeholder="" type="checkbox"></label>
+            <button class="addButton">Dodaj</button>
+        </div>
+        <div>
+            <h2>Lista zadań do zrobienia</h2>
+            <div class="listTask"></div>
+        </div>
+        <div>
+            <h2>Lista zadań zrobionych</h2>
+            <div class="listTaskDone"></div>
+        </div>
+    </div>
+
+    <script type="module" src="ts/app.ts"></script> 
+</body>
+</html>
