@@ -1,0 +1,21 @@
+.soundBbutton {
+  width: 160px;
+  height: 120px;
+  background-color: #00e1ff;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  font-family: Gill Sans, Gill Sans MT, Calibri, Trebuchet MS, sans-serifa;
+  font-size: 35px;
+}
+
+#soundbar_top {
+  margin-top: 10%;
+}
+
+#soundbar_top, #soundbar_bottom {
+  justify-content: center;
+  display: flex;
+}
+
+/*# sourceMappingURL=index.0c8c5dbd.css.map */

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="css.css">
+</head>
+<body>
+    <audio src="./sounds/boom.wav"  data-sound="boom"></audio>
+    <audio src="./sounds/clap.wav"  data-sound="clap"></audio>
+    <audio src="./sounds/hihat.wav"  data-sound="hihat"></audio>
+    <audio src="./sounds/kick.wav"  data-sound="kick"></audio>
+    <audio src="./sounds/openhat.wav"  data-sound="openhat"></audio>
+    <audio src="./sounds/ride.wav"  data-sound="ride"></audio>
+    <audio src="./sounds/snare.wav"  data-sound="snare"></audio>
+    <audio src="./sounds/tink.wav"  data-sound="tink"></audio>
+
+    <div id="soundbar_top">
+        <button id = "q" class="soundBbutton"> Q </br> Boom    </button>
+        <button id = "w" class="soundBbutton"> W </br> Clap    </button>
+        <button id = "e" class="soundBbutton"> E </br> Hihat   </button>
+        <button id = "r" class="soundBbutton"> R </br> Kick    </button>
+        <button id = "t" class="soundBbutton"> T </br> Openhat </button>
+        <button id = "y" class="soundBbutton"> Y </br> Ride    </button>
+        <button id = "u" class="soundBbutton"> U </br> Snare   </button>
+        <button id = "i" class="soundBbutton"> I </br> Kick    </button>
+    </div>
+    <div id="player">  
+        <p>zaznacz, nagrywaj, odtwarzaj</p>
+        <div id="track1" class="trackDiv">  
+            <button id = "track1Record" class="playerButtonRecord"> Record1  </button>
+            <button id = "StopRecord1" class="playerButtonRecord"> StopRecord1  </button>
+            <button id = "track1Play" class="playerButtonStart"> &#x23F5; </button>
+        </div>
+
+        <div id="track2" class="trackDiv">
+            <button id = "track2Record" class="playerButtonRecord"> Record2  </button>
+            <button id = "StopRecord2" class="playerButtonRecord"> StopRecord2  </button>
+            <button id = "track2Play" class="playerButtonStart"> &#x23F5; </button>
+        </div>
+
+        <div id="track3" class="trackDiv">
+            <button id = "track3Record" class="playerButtonRecord"> Record3  </button>
+            <button id = "StopRecord3" class="playerButtonRecord"> StopRecord3  </button>
+            <button id = "track3Play" class="playerButtonStart"> &#x23F5; </button>
+        </div>
+
+        <div id="track4" class="trackDiv">
+            <button id = "track4Record" class="playerButtonRecord"> Record4  </button>
+            <button id = "StopRecord4" class="playerButtonRecord"> StopRecord4  </button>
+            <button id = "track4Play" class="playerButtonStart"> &#x23F5; </button>
+        </div>
+    </div>
+    <script type="module" src="index.ts" defer></script>
+</body>
+</html>
