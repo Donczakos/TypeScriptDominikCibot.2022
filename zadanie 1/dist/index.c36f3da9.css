@@ -1,0 +1,26 @@
+.app {
+  flex-direction: column;
+  display: flex;
+}
+
+label {
+  margin: 10px 0;
+}
+
+input {
+  margin: 10px;
+}
+
+button {
+  width: 100px;
+  background-color: #0000;
+  margin: 10px;
+}
+
+button:hover {
+  color: #fff;
+  cursor: pointer;
+  background: #000;
+}
+
+/*# sourceMappingURL=index.c36f3da9.css.map */

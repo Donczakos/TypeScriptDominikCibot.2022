@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./public/css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Kalkulator Premium</h1>
+    <label for="">Podaj liczbę od 1 do 9<input maxlength="1" max="9" min="0" id="generate" placeholder="podaj liczbę" type="text"></label>
+    <div class="app"></div> 
+    <button style="display: none;" id="button">Oblicz</button>
+    <button style="display: none;" id="buttonDelete">Usuń</button>
+    <div class="show" style="display:none">
+        <p>Suma liczb to: <span id="first"></span></p>
+        <p>Średnia liczb to: <span id="secound"></span></p>
+        <p>Największa liczba to: <span id="third"></span></p>
+        <p>Najmniejsza liczba to: <span id="fourth"></span></p>
+    </div>
+    <script type="module" src="./public/ts/app.ts"></script>
+</body>
+</html>

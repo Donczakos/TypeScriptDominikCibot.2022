@@ -1,0 +1,21 @@
+.app{
+    display: flex;
+    flex-direction: column;
+}
+label{
+    margin: 10px 0;
+
+}
+input{
+    margin: 10px;
+}
+button{
+    width: 100px;
+    background-color: transparent;
+    margin: 10px;
+}
+button:hover{
+    color: white;
+    background: black;
+    cursor: pointer;
+}
